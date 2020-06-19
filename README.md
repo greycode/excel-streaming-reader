@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/pjfanning/excel-streaming-reader.svg?branch=master)](https://travis-ci.org/pjfanning/excel-streaming-reader)
+[![Build Status](https://travis-ci.org/greycode/excel-streaming-reader.svg?branch=master)](https://travis-ci.org/greycode/excel-streaming-reader)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.greycode/excel-streaming-reader/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.greycode/excel-streaming-reader)
 
 # Excel Streaming Reader
