@@ -1,12 +1,12 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
 import com.github.pjfanning.poi.xssf.streaming.TempFileSharedStringsTable;
-import com.github.pjfanning.xlsx.StreamingReader.Builder;
-import com.github.pjfanning.xlsx.XmlUtils;
-import com.github.pjfanning.xlsx.exceptions.NotSupportedException;
-import com.github.pjfanning.xlsx.exceptions.OpenException;
-import com.github.pjfanning.xlsx.exceptions.ParseException;
-import com.github.pjfanning.xlsx.exceptions.ReadException;
+import com.github.greycode.xlsx.StreamingReader.Builder;
+import com.github.greycode.xlsx.XmlUtils;
+import com.github.greycode.xlsx.exceptions.NotSupportedException;
+import com.github.greycode.xlsx.exceptions.OpenException;
+import com.github.greycode.xlsx.exceptions.ParseException;
+import com.github.greycode.xlsx.exceptions.ReadException;
 import org.apache.poi.ooxml.POIXMLProperties;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
@@ -41,7 +41,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.github.pjfanning.xlsx.XmlUtils.searchForNodeList;
+import static com.github.greycode.xlsx.XmlUtils.searchForNodeList;
 import static java.util.Arrays.asList;
 
 public class StreamingWorkbookReader implements Iterable<Sheet>, AutoCloseable {

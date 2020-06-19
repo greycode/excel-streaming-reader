@@ -1,6 +1,6 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
-import com.github.pjfanning.xlsx.exceptions.NotSupportedException;
+import com.github.greycode.xlsx.exceptions.NotSupportedException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.CellType;

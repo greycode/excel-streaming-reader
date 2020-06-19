@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
 interface Supplier {
   Object getContent();

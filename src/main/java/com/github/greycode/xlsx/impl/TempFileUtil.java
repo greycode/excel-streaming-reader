@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

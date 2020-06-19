@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
 class StringSupplier implements Supplier {
     private final String val;

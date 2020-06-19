@@ -1,6 +1,6 @@
-package com.github.pjfanning.xlsx;
+package com.github.greycode.xlsx;
 
-import com.github.pjfanning.xlsx.exceptions.ParseException;
+import com.github.greycode.xlsx.exceptions.ParseException;
 import org.apache.poi.ooxml.util.DocumentHelper;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;

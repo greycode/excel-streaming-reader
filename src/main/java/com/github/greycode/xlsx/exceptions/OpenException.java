@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx.exceptions;
+package com.github.greycode.xlsx.exceptions;
 
 public class OpenException extends RuntimeException {
 

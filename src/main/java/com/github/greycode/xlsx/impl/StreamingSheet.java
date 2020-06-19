@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx.impl;
+package com.github.greycode.xlsx.impl;
 
 import org.apache.poi.ss.util.PaneInformation;
 import org.apache.poi.ss.usermodel.AutoFilter;

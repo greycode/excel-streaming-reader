@@ -1,11 +1,11 @@
-package com.github.pjfanning.xlsx;
+package com.github.greycode.xlsx;
 
 import com.github.pjfanning.poi.xssf.streaming.TempFileSharedStringsTable;
-import com.github.pjfanning.xlsx.exceptions.*;
-import com.github.pjfanning.xlsx.impl.StreamingWorkbook;
-import com.github.pjfanning.xlsx.impl.StreamingWorkbookReader;
-import com.github.pjfanning.xlsx.impl.StreamingSheetReader;
-import com.github.pjfanning.xlsx.impl.TempFileUtil;
+import com.github.greycode.xlsx.exceptions.*;
+import com.github.greycode.xlsx.impl.StreamingWorkbook;
+import com.github.greycode.xlsx.impl.StreamingWorkbookReader;
+import com.github.greycode.xlsx.impl.StreamingSheetReader;
+import com.github.greycode.xlsx.impl.TempFileUtil;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.openxml4j.exceptions.OpenXML4JException;
 import org.apache.poi.openxml4j.opc.OPCPackage;
@@ -34,7 +34,7 @@ import java.security.GeneralSecurityException;
 import java.util.Iterator;
 import java.util.Objects;
 
-import static com.github.pjfanning.xlsx.XmlUtils.searchForNodeList;
+import static com.github.greycode.xlsx.XmlUtils.searchForNodeList;
 
 /**
  * Streaming Excel workbook implementation. Most advanced features of POI are not supported.

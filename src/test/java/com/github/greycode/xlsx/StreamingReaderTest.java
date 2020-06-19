@@ -1,7 +1,7 @@
-package com.github.pjfanning.xlsx;
+package com.github.greycode.xlsx;
 
-import com.github.pjfanning.xlsx.exceptions.MissingSheetException;
-import com.github.pjfanning.xlsx.impl.StreamingWorkbook;
+import com.github.greycode.xlsx.exceptions.MissingSheetException;
+import com.github.greycode.xlsx.impl.StreamingWorkbook;
 import org.apache.poi.openxml4j.opc.OPCPackage;
 import org.apache.poi.openxml4j.opc.PackageAccess;
 import org.apache.poi.ss.usermodel.*;

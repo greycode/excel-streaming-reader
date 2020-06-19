@@ -1,4 +1,4 @@
-package com.github.pjfanning.xlsx;
+package com.github.greycode.xlsx;
 
 import org.junit.Test;
 import static org.junit.Assert.assertFalse;

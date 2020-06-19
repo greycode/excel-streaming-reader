@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/pjfanning/excel-streaming-reader.svg?branch=master)](https://travis-ci.org/pjfanning/excel-streaming-reader)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.pjfanning/excel-streaming-reader/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.pjfanning/excel-streaming-reader)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.greycode/excel-streaming-reader/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.greycode/excel-streaming-reader)
 
 # Excel Streaming Reader
 
@@ -16,11 +16,11 @@ To use it, add this to your POM:
 ```
 <dependencies>
   <dependency>
-    <groupId>com.github.pjfanning</groupId>
+    <groupId>com.github.greycode</groupId>
     <artifactId>excel-streaming-reader</artifactId>
     <version>2.3.4</version>
   </dependency>
-</dependencies>  
+</dependencies>
 ```
 
 # Usage
@@ -28,7 +28,7 @@ To use it, add this to your POM:
 The package name is different from the *monitorjbl/excel-streaming-reader* jar. The code is very similar.
 
 ```java
-import com.github.pjfanning.xlsx.StreamingReader;
+import com.github.greycode.xlsx.StreamingReader;
 
 InputStream is = new FileInputStream(new File("/path/to/workbook.xlsx"));
 Workbook workbook = StreamingReader.builder()
@@ -107,7 +107,7 @@ This is a brief and very generalized list of things that are not supported for r
 
 # Logging
 
-This library uses SLF4j logging. This is a rare use case, but you can plug in your logging provider and get some potentially useful output. 
+This library uses SLF4j logging. This is a rare use case, but you can plug in your logging provider and get some potentially useful output.
 
 # Implementation Details
 
@@ -122,8 +122,8 @@ If you need more control over how the file is created/disposed of, there is an o
 ```java
 File f = new File("/path/to/workbook.xlsx");
 Workbook workbook = StreamingReader.builder()
-        .rowCacheSize(100)    
-        .bufferSize(4096)     
+        .rowCacheSize(100)
+        .bufferSize(4096)
         .open(f);
 ```
 
